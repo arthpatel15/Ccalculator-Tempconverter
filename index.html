@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body onload="time()" style="background-color: #EAF6F6;">
+   
+    <h3 id="day"> </h3>
+<br> 
+<h3 id="time"></h3>
+
+<hr>
+<h2>Calculator</h2>
+
+<label>1st Number: </label>
+<input type="number" id="firstNumber" placeholder="Enter first number">
+<br>
+<br>
+<label>2nd Number: </label>
+<input type="number" id="secondNumber" placeholder="Enter second number">
+
+<br>
+<br>
+<button id="btnAdd" onclick="add()">Add</button>
+
+<button id="btnMultiply" onclick="multiply()">Mulitply</button>
+<button onclick="minus()">minus</button>
+
+<button onclick="divide()">Divide</button>
+
+<br>
+
+<label>The result is: </label>
+<p id="para1"></p>
+
+<br>
+<hr>
+<h2>Temp Converter</h2>
+<input type="number" id="txtCenti" placeholder="Enter temp" >
+<button onclick="ctof()" >C To F</button>
+<button onclick="ftoc()" >F To C</button>
+<br>
+<label for="">Converted Temp: </label>
+<p id="para2"></p>
+<hr>
+
+<h3>Fizz Buzz</h3>
+<button onclick="fizzBuzz()">FizzBuzz</button>
+<p id="fizzBuzz"></p>
+
+<script src="script.js"></script>
+</body>
+</html
